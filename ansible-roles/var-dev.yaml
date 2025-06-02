@@ -2,3 +2,4 @@ login_user: root
 login_host: db-dev.vjeeth.site
 login_password: ExpenseApp@1
 DB_HOST: db-dev.vjeeth.site
+BACKEND_API_URL: backend.app-dev.vjeeth.site
