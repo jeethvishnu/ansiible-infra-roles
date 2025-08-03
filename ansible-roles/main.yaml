@@ -12,7 +12,7 @@
   hosts: all
   connection: local
   vars_files:
-    - "{{ 'var-' + env + '.yaml' }}"
+    - "var-{{ env | default('dev') }}.yaml"
   become: yes
   roles:
     - "{{ component }}"
